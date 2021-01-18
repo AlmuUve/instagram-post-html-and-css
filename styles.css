@@ -5,7 +5,9 @@
 body{
     background-color: black;
     display: flex;
-    justify-content: center;
+}
+.Post>header{
+    display:flex;
 }
 .Post{
     background-color: white;
@@ -18,20 +20,13 @@ body{
 }
 .Post > header{
     display: flex;
-    justify-content: space-between;
     margin-top: 0.7rem;
     font-size: 2rem;
     margin-bottom: 0.7rem;
+    align-content: center;
 }
-.Post > header > div:first-child{
-    display: flex;
-    margin-left: 1rem;
-    
-}
-.Post > header > div:last-child{
-    display: flex;
-    margin-right: 0.5rem;
-    padding-top: 0.25rem;
+.Post > header > i:last-of-type>::before{
+    justify-self: flex-end;
 }
 .title{
     margin-left: 0.5rem;
