@@ -6,9 +6,6 @@ body{
     background-color: black;
     display: flex;
 }
-.Post>header{
-    display:flex;
-}
 .Post{
     background-color: white;
     display: flex;
@@ -23,19 +20,24 @@ body{
     margin-top: 0.7rem;
     font-size: 2rem;
     margin-bottom: 0.7rem;
-    align-content: center;
+    align-items: center;
 }
-.Post > header > i:last-of-type>::before{
-    justify-self: flex-end;
+
+.fab{
+    margin-left: 1rem;
+    font-size: 3rem;
 }
 .title{
-    margin-left: 0.5rem;
+    margin-left: 1rem;
     font-size: 1rem;
     display: flex;
     flex-direction: column;
 }
 .title > span:first-child{
     font-weight: bold;
+}
+.fas{
+    margin-left: 24rem;
 }
 .imgPost{
     display: flex;
